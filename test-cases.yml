@@ -25,7 +25,7 @@
     no data
   steps:
     - Нажимаем на графу "Your weapon"
-    - Выбраем один из доступных языков программирования
+    - Выбираем один из доступных языков программирования
     - Нажимаем кнопку "Save"
     - Переходим на станицу "My profile"
   expected-result: |
@@ -36,16 +36,16 @@
   requirement: |
     После выполнения задания, должен выводиться результат 
   prerequisites:
-    Открыта страница https://codebattle.hexlet.io/settings
+    Открыта главная страница https://codebattle.hexlet.io/
   test-data: |
     no data
   steps:
-    - Нажимаем на графу "Your weapon"
-    - Выбраем один из доступных языков программирования
-    - Нажимаем кнопку "Save"
-    - Переходим на станицу "My profile"
+    - Нажимаем кнопку "Create a game"
+    - Выбираем "Game type" With a bot
+    - Нажимаем кнопку "Create a game"
+    - Нажимаем кнопку "Check solution"
   expected-result: |
-    На странице профиля под именем пользователя отображается иконка выбранного языка программирования
+    Во вкладке "OUTPUT" появляется надпись "The solution cannot be executed"
     
 - summary: |
     Выбор языка программирования
