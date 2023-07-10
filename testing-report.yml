@@ -12,7 +12,7 @@
   status: pass
   
 - summary: |
-    Проверка функционала выполнения задания
+    Проверка кнопки check solution в активной игре
   status: pass
   
 - summary: |
