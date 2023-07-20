@@ -2,7 +2,11 @@
 - summary: |
     Проверка авторизации через Github
   status: pass
-
+  
+- summary: |
+    Проверка авторизации через Discord
+  status: pass
+  
 - summary: |
     Проверка входа пользователя с существующими логином и паролем
   status: pass
@@ -20,10 +24,6 @@
   status: pass
 
 - summary: |
-    Проверка авторизации через Discord
-  status: pass
-
-- summary: |
     Проверка возможности писать сообщения в общем чате
   status: pass
 
@@ -38,3 +38,7 @@
 - summary: |
     Проверка возможности сдаться во время баттла
   status: pass
+  
+- summary: |
+    Проверка мобильной версии сайта 
+  status: fail
